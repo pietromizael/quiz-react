@@ -1,0 +1,36 @@
+#options-container {
+  margin-top: 2rem;
+}
+
+.options {
+  background-color: #570b83;
+  border-radius: 3rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.options:hover {
+  opacity: 1;
+}
+
+.selected {
+  pointer-events: none;
+  background-color: #abe054;
+}
+
+.wrong {
+  background-color: #422e5a;
+  opacity: 0.4;
+}
+
+.selected.disabled {
+  pointer-events: none;
+  background-color: #abe054;
+  cursor: default;
+}
+
+.wrong.disabled {
+  pointer-events: none;
+  cursor: default;
+}
